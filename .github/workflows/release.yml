@@ -48,5 +48,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           yarn release-patch --yes
+          CURRENT_BRANCH=`git branch --show-current`
           git checkout master
+          git merge $CURRENT_BRANCH
           git push origin master
