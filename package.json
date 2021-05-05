@@ -10,7 +10,8 @@
     "test": "lerna run test",
     "link-core": "yarn crosslink --overwrite",
     "release-patch": "lerna publish patch --skip-npm --force-publish=*",
-    "release-stable": "lerna publish minor --skip-npm --force-publish=*"
+    "release-stable": "lerna publish minor --skip-npm --force-publish=*",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "crosslink": [
     "core-repo/node_modules/@vue/composition-api -> node_modules",
@@ -29,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "conventional-changelog-cli": "^2.1.1",
     "cross-env": "^6.0.3",
     "eslint": "^7.20.0",
     "eslint-config-standard": "^16.0.2",

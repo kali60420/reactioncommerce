@@ -55,7 +55,8 @@
       [
 				"api-client",
         "composables",
-        "theme"
+        "theme",
+        "all"
       ]
     ]
   }
