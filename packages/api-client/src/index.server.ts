@@ -12,9 +12,6 @@ const onCreate = (settings: Config): { config: Config; client: ClientInstance } 
   const acceptLanguage = settings.acceptLanguage || defaultSettings.acceptLanguage;
   const locale = settings.locale || defaultSettings.locale;
 
-
-
-  
   const config = {
     ...defaultSettings,
     ...settings,
