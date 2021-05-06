@@ -20,10 +20,6 @@ const onCreate = (settings: Config): { config: Config; client: ClientInstance } 
     auth: settings.auth || defaultSettings.auth
   } as any as Config;
 
-  if (settings.client) {
-    return { client: settings.client, config };
-  }
-
   if (settings.customOptions && settings.customOptions.link) {
     return {
       client: new ApolloClient({
