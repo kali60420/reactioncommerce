@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0 (2021-05-06)
+
+
+### Bug Fixes
+
+* udpate api client for test ([4ed1969](https://github.com/vuestorefront/commercetools/commit/4ed196944a1c4f703a3bdc81268b3c841647f7cd))
+
+
+
+
+
 # 1.8.0 (2021-05-06)
 
 **Note:** Version bump only for package @vue-storefront/commercetools
