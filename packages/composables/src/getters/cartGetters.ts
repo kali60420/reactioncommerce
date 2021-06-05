@@ -3,8 +3,8 @@ import {
     Cart,
     FulfillmentMethod,
     FulfillmentGroup
-} from "@pondigitalsolutions/rc-storefront-api/lib/types";
-import { CartItem } from "@pondigitalsolutions/rc-storefront-api/lib/types/graphql";
+} from "@kali604/reactioncommerce-api/lib/types";
+import { CartItem } from "@kali604/reactioncommerce-api/lib/types/graphql";
 
 export const getCartId = (cart: Cart): string => cart._id;
 export const getCartItems = (cart: Cart): CartItem[] => {

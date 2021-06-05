@@ -2,7 +2,7 @@ import {
     getCatalogItem,
     searchCatalogItem,
     CatalogItem
-} from "@pondigitalsolutions/rc-storefront-api";
+} from "@kali604/reactioncommerce-api";
 import { useCatalogItemFactory } from "./../factories";
 import { SingleResult } from "./../interfaces";
 import { enhanceCatalogItem } from "./../helpers";

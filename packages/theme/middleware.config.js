@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
     ct: {
-      location: '@vue-storefront/commercetools-api/server',
+      location: '@kali604/reactioncommerce-api',
       configuration: {
         api: {
           uri: 'https://api.commercetools.com/vsf-ct-dev/graphql',

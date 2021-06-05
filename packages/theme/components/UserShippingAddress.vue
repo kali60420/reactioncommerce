@@ -16,7 +16,7 @@
 
 <script>
 import { toRef, computed } from '@vue/composition-api';
-import { useVSFContext } from '@vue-storefront/core';
+import { useVSFContext } from '@kali604/core';
 
 export default {
   props: {

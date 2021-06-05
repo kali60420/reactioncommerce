@@ -1,8 +1,8 @@
 import { Ref } from "@vue/composition-api";
 import {
     Metafield
-} from "@pondigitalsolutions/rc-storefront-api/lib/types/graphql";
-import { FulfillmentMethod } from "@pondigitalsolutions/rc-storefront-api/lib/types";
+} from "@kali604/reactioncommerce-api/lib/types/graphql";
+import { FulfillmentMethod } from "@kali604/reactioncommerce-api/lib/types";
 
 export type ComputedProperty<T> = Readonly<Ref<Readonly<T>>>;
 

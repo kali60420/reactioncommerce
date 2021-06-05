@@ -1,4 +1,4 @@
-import { UserOrder } from "@pondigitalsolutions/rc-storefront-api/lib/types";
+import { UserOrder } from "@kali604/reactioncommerce-api/lib/types";
 import { OrderGetters } from "../interfaces";
 
 export const getId = (order): string => order._id;

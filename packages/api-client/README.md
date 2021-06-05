@@ -31,13 +31,13 @@ Follow the [documentation](https://raw.githubusercontent.com/reactioncommerce/re
 
 NPM:
 ```
-npm install --save @pondigitalsolutions/rc-storefront-api
+npm install --save @kali604/reactioncommerce-api
 npm install --save @pondigitalsolutions/rc-storefront-composables
 ```
 
 Yarn:
 ```
-yarn add @pondigitalsolutions/rc-storefront-api
+yarn add @kali604/reactioncommerce-api
 yarn add @pondigitalsolutions/rc-storefront-composables
 ```
 

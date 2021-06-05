@@ -31,7 +31,7 @@ import {
   SfAddressPicker
 } from '@storefront-ui/vue';
 import UserShippingAddress from '~/components/UserShippingAddress';
-import { useUserShipping, userShippingGetters } from '@vue-storefront/reactioncommerce';
+import { useUserShipping, userShippingGetters } from '@kali604/reactioncommerce';
 
 export default {
   name: 'UserShippingAddresses',

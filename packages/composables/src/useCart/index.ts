@@ -3,7 +3,7 @@ import { Ref, ref } from "@vue/composition-api";
 import {
     Cart,
     FulfillmentMethod
-} from "@pondigitalsolutions/rc-storefront-api/lib/types";
+} from "@kali604/reactioncommerce-api/lib/types";
 import { useCartFactory } from "./../factories";
 import {
     getCart as apiGetCart,
@@ -16,9 +16,9 @@ import {
     setShippingAddressToCart as apiSetShippingmentMethods,
     selectShippingMethod as apiSetShippingMethod,
     addCoupon as apiApplyDiscount
-} from "@pondigitalsolutions/rc-storefront-api";
+} from "@kali604/reactioncommerce-api";
 import { cartGetters, checkoutGetters } from "../getters";
-import { Metafield } from "@pondigitalsolutions/rc-storefront-api/lib/types/graphql";
+import { Metafield } from "@kali604/reactioncommerce-api/lib/types/graphql";
 
 export const cart: Ref<Cart> = ref(null);
 export const token: Ref<string> = ref(null);

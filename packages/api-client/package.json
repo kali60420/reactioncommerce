@@ -1,6 +1,6 @@
 {
     "name": "@kali604/reactioncommerce-api",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "sideEffects": false,
     "main": "lib/index.cjs.js",
     "module": "lib/index.es.js",

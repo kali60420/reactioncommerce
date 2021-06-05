@@ -1,8 +1,8 @@
 import { ref, Ref, computed } from "@vue/composition-api";
 import { useSSR } from "./../utils";
 import { UseCart, CartResult, CartMutationResult } from "./../interfaces";
-import { FulfillmentMethod } from "@pondigitalsolutions/rc-storefront-api/lib/types";
-import { Metafield } from "@pondigitalsolutions/rc-storefront-api/lib/types/graphql";
+import { FulfillmentMethod } from "@kali604/reactioncommerce-api/lib/types";
+import { Metafield } from "@kali604/reactioncommerce-api/lib/types/graphql";
 
 type GetCartParams = {
     cartId: string;

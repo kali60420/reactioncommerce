@@ -8,7 +8,7 @@ import {
 import {
     CatalogProduct,
     CatalogProductVariant
-} from "@pondigitalsolutions/rc-storefront-api/lib/types/graphql";
+} from "@kali604/reactioncommerce-api/lib/types/graphql";
 
 export const getAttributes = (product: CatalogProduct): Attribute[] => {
     return product.metafields.map(field => {

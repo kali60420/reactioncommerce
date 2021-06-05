@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { useCart, useShippingProvider, cartGetters } from '@vue-storefront/reactioncommerce';
+import { useCart, useShippingProvider, cartGetters } from '@kali604/reactioncommerce';
 import {
   SfHeading,
   SfButton,
@@ -59,7 +59,7 @@ import {
 } from '@storefront-ui/vue';
 import { ref, reactive, onMounted, computed } from '@vue/composition-api';
 import getShippingMethodPrice from '@/helpers/Checkout/getShippingMethodPrice';
-import { useVSFContext } from '@vue-storefront/core';
+import { useVSFContext } from '@kali604/core';
 
 export default {
   name: 'VsfShippingProvider',

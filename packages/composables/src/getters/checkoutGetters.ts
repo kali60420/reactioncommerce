@@ -4,7 +4,7 @@ import {
     OrderItem,
     FulfillmentMethod,
     FulfillmentGroup
-} from "@pondigitalsolutions/rc-storefront-api/lib/types";
+} from "@kali604/reactioncommerce-api/lib/types";
 
 export const getId = (cart: Cart): string => cart._id;
 export const getPersonalDetails = (cart: Cart): any => {

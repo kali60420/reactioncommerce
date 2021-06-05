@@ -1,8 +1,8 @@
 import { ref, Ref, computed } from '@vue/composition-api';
-import { PrimaryShopId } from '@pondigitalsolutions/rc-storefront-api/lib/types';
+import { PrimaryShopId } from '@kali604/reactioncommerce-api/lib/types';
 import { usePrimaryShopIdFactory } from './../factories';
 import { SingleResult } from './../interfaces';
-import { getPrimaryShopId as apiGetPrimaryShopId } from '@pondigitalsolutions/rc-storefront-api';
+import { getPrimaryShopId as apiGetPrimaryShopId } from '@kali604/reactioncommerce-api';
 
 export const cart: Ref<PrimaryShopId> = ref(null);
 

@@ -7,14 +7,14 @@ import {
 import {
     User,
     UserOrder
-} from "@pondigitalsolutions/rc-storefront-api/lib/types";
+} from "@kali604/reactioncommerce-api/lib/types";
 import {
     getAccount as apiGetAccount,
     updateAccount as apiUpdateAccount,
     getOrdersByAccountId as apiGetOrdersByAccountId,
     addAddressBookEntry as apiAddAddressBookEntry,
     updateAddressBookEntry as apiUpdateAddressBookEntry
-} from "@pondigitalsolutions/rc-storefront-api";
+} from "@kali604/reactioncommerce-api";
 import { useUserFactory } from "./../factories";
 import { enhanceOrders } from "../helpers";
 

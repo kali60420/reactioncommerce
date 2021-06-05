@@ -4,13 +4,13 @@ import {
     Order,
     ShippingDetails,
     PaymentMethods
-} from "@pondigitalsolutions/rc-storefront-api/lib/types";
+} from "@kali604/reactioncommerce-api/lib/types";
 import { useCheckoutFactory } from "./../factories";
 import { CheckoutMutationResult, SearchResult } from "./../interfaces";
 import {
     availablePaymentMethods as apiAvailablePaymentMethods,
     placeOrder as apiPlaceOrder
-} from "@pondigitalsolutions/rc-storefront-api";
+} from "@kali604/reactioncommerce-api";
 
 type Disabled = {
     personalDetails: boolean;
@@ -29,17 +29,20 @@ export const shippingDetails: Ref<ShippingDetails> = ref({
     firstName: null,
     lastName: null,
     address1: null,
-    number: null,
+    streetNumber: null,
+    phone: null,
     postal: null,
     city: null,
-    country: null
+    country: null,
+    company: null
 });
 
 export const billingDetails: Ref<ShippingDetails> = ref({
     firstName: null,
     lastName: null,
     address1: null,
-    number: null,
+    streetNumber: null,
+    phone: null,
     postal: null,
     city: null,
     country: null,

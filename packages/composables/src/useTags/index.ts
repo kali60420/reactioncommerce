@@ -1,4 +1,4 @@
-import { getTags, Tags } from '@pondigitalsolutions/rc-storefront-api';
+import { getTags, Tags } from '@kali604/reactioncommerce-api';
 import { useTagsFactory } from './../factories';
 import { SearchResult } from './../interfaces';
 import { enhanceTags } from './../helpers';

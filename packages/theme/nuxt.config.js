@@ -59,12 +59,12 @@ export default {
       coreDevelopment: true,
       useRawSource: {
         dev: [          
-          '@vue-storefront/reactioncommerce',
-          '@vue-storefront/core'
+          '@kali604/reactioncommerce',
+          '@kali604/core'
         ],
         prod: [
-          '@vue-storefront/reactioncommerce',
-          '@vue-storefront/core'
+          '@kali604/reactioncommerce',
+          '@kali604/core'
         ]
       }
     }],

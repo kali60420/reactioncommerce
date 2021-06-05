@@ -1,7 +1,7 @@
 import {
     getCatalogItems,
     ProductVariant
-} from "@pondigitalsolutions/rc-storefront-api";
+} from "@kali604/reactioncommerce-api";
 import { useCatalogItemsFactory } from "./../factories";
 import { SearchResult } from "./../interfaces";
 import { enhanceCatalogItems } from "./../helpers";

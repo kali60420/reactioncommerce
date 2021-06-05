@@ -1,5 +1,5 @@
 import pkg from './package.json';
-import graphql from 'rollup-plugin-graphql';
+import graphql from '@kocal/rollup-plugin-graphql';
 import typescript from 'rollup-plugin-typescript2';
 import { terser } from 'rollup-plugin-terser';
 

@@ -105,6 +105,3 @@ dist
 
 # lock file 
 yarn.lock
-
-# Build folder
-lib/
