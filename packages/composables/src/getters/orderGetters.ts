@@ -1,44 +1,22 @@
-import { UserOrderGetters, AgnosticOrderStatus } from '@vue-storefront/core';
-import { Order, OrderState, LineItem } from './../types/GraphQL';
+import { UserOrder } from "@pondigitalsolutions/rc-storefront-api/lib/types";
+import { OrderGetters } from "../interfaces";
 
-export const getOrderDate = (order: Order): string => order?.createdAt || '';
+export const getId = (order): string => order._id;
+export const getReferenceId = (order): string => order.referenceId;
+export const getDisplayPrice = (order): string =>
+    order.payments[0].amount.displayAmount;
+export const getPrice = (order): string =>
+    order.payments[0].amount.amount.toFixed(2);
+export const getStatus = (order): string => order.displayStatus;
+export const getDate = (order): any => order.createdAt;
 
-export const getOrderId = (order: Order): string => order?.id || '';
-
-const orderStatusMap = {
-  [OrderState.Open]: AgnosticOrderStatus.Open,
-  [OrderState.Confirmed]: AgnosticOrderStatus.Confirmed,
-  [OrderState.Complete]: AgnosticOrderStatus.Complete,
-  [OrderState.Cancelled]: AgnosticOrderStatus.Cancelled
-};
-
-export const getOrderStatus = (order: Order): AgnosticOrderStatus | '' => order?.orderState ? orderStatusMap[order.orderState] : '';
-
-export const getOrderPrice = (order: Order): number => order ? order.totalPrice.centAmount / 100 : 0;
-
-export const getOrderItems = (order: Order): LineItem[] => order?.lineItems || [];
-
-export const getOrderItemSku = (item: LineItem): string => item?.productId || '';
-
-export const getOrderItemName = (item: LineItem): string => item?.name || '';
-
-export const getOrderItemQty = (item: LineItem): number => item?.quantity || 0;
-
-export const getOrderItemPrice = (item: LineItem): number => item ? item.price.value.centAmount / 100 : 0;
-
-export const getFormattedPrice = (price: number) => price as any as string;
-
-const orderGetters: UserOrderGetters<Order, LineItem> = {
-  getDate: getOrderDate,
-  getId: getOrderId,
-  getStatus: getOrderStatus,
-  getPrice: getOrderPrice,
-  getItems: getOrderItems,
-  getItemSku: getOrderItemSku,
-  getItemName: getOrderItemName,
-  getItemQty: getOrderItemQty,
-  getItemPrice: getOrderItemPrice,
-  getFormattedPrice
+const orderGetters: OrderGetters<UserOrder> = {
+    getId: getId,
+    getReferenceId: getReferenceId,
+    getDate: getDate,
+    getPrice: getPrice,
+    getDisplayPrice: getDisplayPrice,
+    getStatus: getStatus
 };
 
 export default orderGetters;

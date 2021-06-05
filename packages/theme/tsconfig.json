@@ -33,12 +33,8 @@
     "node_modules"
   ],
   "include": [
+    "tests/e2e/**/*.ts",
     "tests/e2e/plugins/index.js",
-    "tests/e2e/support/index.js"  
-  ],
-  "references": [
-    { "path": "@vue-storefront/core" },
-    { "path": "@vue-storefront/commercetools-api" },
-    { "path": "@vue-storefront/commercetools" }
-  ],
+    "tests/e2e/support/index.js"
+  ]
 }

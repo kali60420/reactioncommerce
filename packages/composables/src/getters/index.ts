@@ -1,24 +1,6 @@
-/* istanbul ignore file */
-import cartGetters from './cartGetters';
-import categoryGetters from './categoryGetters';
-import productGetters from './productGetters';
-import reviewGetters from './reviewGetters';
-import userGetters from './userGetters';
-import userShippingGetters from './userShippingGetters';
-import userBillingGetters from './userBillingGetters';
-import orderGetters from './orderGetters';
-import wishlistGetters from './wishlistGetters';
-import facetGetters from './facetGetters';
+import cartGetters from "./cartGetters";
+import catalogItemGetters from "./catalogItemGetters";
+import checkoutGetters from "./checkoutGetters";
+import orderGetters from "./orderGetters";
 
-export {
-  cartGetters,
-  categoryGetters,
-  productGetters,
-  reviewGetters,
-  userGetters,
-  userShippingGetters,
-  userBillingGetters,
-  orderGetters,
-  wishlistGetters,
-  facetGetters
-};
+export { cartGetters, catalogItemGetters, checkoutGetters, orderGetters };

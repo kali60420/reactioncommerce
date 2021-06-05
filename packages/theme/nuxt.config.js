@@ -58,12 +58,12 @@ export default {
     ['@vue-storefront/nuxt', {
       coreDevelopment: true,
       useRawSource: {
-        dev: [
-          '@vue-storefront/commercetools',
+        dev: [          
+          '@vue-storefront/reactioncommerce',
           '@vue-storefront/core'
         ],
         prod: [
-          '@vue-storefront/commercetools',
+          '@vue-storefront/reactioncommerce',
           '@vue-storefront/core'
         ]
       }
@@ -72,21 +72,24 @@ export default {
     ['@vue-storefront/nuxt-theme', {
       generate: {
         replace: {
-          apiClient: '@vue-storefront/commercetools-api',
-          composables: '@vue-storefront/commercetools'
+          apiClient: '@kali604/reactioncommerce-api',
+          composables: '@kali604/reactioncommerce-composables'
         }
       }
-    }],
+    }]
     // @core-development-only-end
     /* project-only-start
     ['@vue-storefront/nuxt-theme'],
     project-only-end */
-    ['@vue-storefront/commercetools/nuxt', {
+    /* ['@vue-storefront/commercetools/nuxt', {
       i18n: {
         useNuxtI18nConfig: true
       }
-    }]
+    }]*/
   ],
+  publicRuntimeConfig: {
+    RC_API_URL: 'https://api.giftingwild.ml/graphql'
+  },
   modules: [
     'nuxt-i18n',
     'cookie-universal-nuxt',

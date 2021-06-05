@@ -9,16 +9,16 @@ coverage:
     patch: no
     project:
       default: no
-      commercetools-api-client:
-        flags: commercetools-api-client
+      reactioncommerce-api-client:
+        flags: reactioncommerce-api-client
         target: 90%
-      commercetools-composables:
-        flags: commercetools-composables
+      reactioncommerce-composables:
+        flags: reactioncommerce-composables
         target: 90%
 flags:
-  commercetools-api-client:
+  reactioncommerce-api-client:
     paths:
-      - packages/commercetools/api-client
-  commercetools-composables:
+      - packages/reactioncommerce/api-client
+  reactioncommerce-composables:
     paths:
-      - packages/commercetools/composables
+      - packages/reactioncommerce/composables

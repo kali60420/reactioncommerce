@@ -1,4 +1,4 @@
-import { ShippingMethod } from '@vue-storefront/commercetools-api';
+import { ShippingMethod } from '@kali604/rc-storefront-api';
 
 export default (shippingMethod: ShippingMethod, total: number) => {
   const centAmount = shippingMethod?.zoneRates[0].shippingRates[0].freeAbove?.centAmount;

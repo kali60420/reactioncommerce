@@ -1,5 +1,5 @@
 import { getCurrentInstance } from '@vue/composition-api';
-import { Category } from '@vue-storefront/commercetools-api';
+import { Category } from '@kali604/rc-storefront-api';
 import { AgnosticFacet } from '@vue-storefront/core';
 
 const nonFilters = ['page', 'sort', 'phrase', 'itemsPerPage'];
