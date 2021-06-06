@@ -1,6 +1,6 @@
 {
   "name": "@kali604/reactioncommerce",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": {
     "node": ">=10.x"
   },

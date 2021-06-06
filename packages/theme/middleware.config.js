@@ -1,11 +1,11 @@
 module.exports = {
   integrations: {
     ct: {
-      location: '@kali604/reactioncommerce-api',
+      location: '@kali604/reactioncommerce',
       configuration: {
         api: {
-          uri: 'https://api.commercetools.com/vsf-ct-dev/graphql',
-          authHost: 'https://auth.sphere.io',
+          uri: 'https://api.giftingwild.ml/graphql',
+          authHost: 'https://hydra.giftingwild.ml',
           projectKey: 'vsf-ct-dev',
           clientId: 'RT4iJGDbDzZe4b2E6RyeNe9s',
           clientSecret: '5eBt3yfZJWw1j7V6kXjfKXpuFP-YQXpg',

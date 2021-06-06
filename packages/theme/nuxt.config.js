@@ -59,12 +59,12 @@ export default {
       coreDevelopment: true,
       useRawSource: {
         dev: [          
-          '@kali604/reactioncommerce',
-          '@kali604/core'
+          '@kali604/reactioncommerce-composables',
+          '@kali604/reactioncommerce'
         ],
         prod: [
-          '@kali604/reactioncommerce',
-          '@kali604/core'
+          '@kali604/reactioncommerce-composables',
+          '@kali604/reactioncommerce'
         ]
       }
     }],
