@@ -60,10 +60,12 @@ export default {
       useRawSource: {
         dev: [          
           '@kali604/reactioncommerce-composables',
+          '@kali604/reactioncommerce-api',
           '@kali604/reactioncommerce'
         ],
         prod: [
           '@kali604/reactioncommerce-composables',
+          '@kali604/reactioncommerce-api',
           '@kali604/reactioncommerce'
         ]
       }
@@ -93,8 +95,7 @@ export default {
   modules: [
     'nuxt-i18n',
     'cookie-universal-nuxt',
-    'vue-scrollto/nuxt',
-    '@vue-storefront/middleware/nuxt'
+    'vue-scrollto/nuxt'
   ],
   i18n: {
     currency: 'USD',

@@ -245,7 +245,7 @@ import {
   SfButton,
   SfSelect
 } from '@storefront-ui/vue';
-import { useShippingProvider, useUserShipping, userShippingGetters, useUser, useShipping } from '@vue-storefront/reactioncommerce';
+import { useShippingProvider, useUserShipping, userShippingGetters, useUser, useShipping } from '@kali604/reactioncommerce';
 import { ValidationProvider, ValidationObserver, extend } from 'vee-validate';
 import { required, min, digits } from 'vee-validate/dist/rules';
 import { useVSFContext } from '@kali604/core';

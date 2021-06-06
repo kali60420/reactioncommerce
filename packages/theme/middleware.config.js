@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
-    ct: {
-      location: '@kali604/reactioncommerce',
+    reactioncommerce: {
+      location: '@kali604/reactioncommerce-api',
       configuration: {
         api: {
           uri: 'https://api.giftingwild.ml/graphql',
@@ -28,3 +28,4 @@ module.exports = {
     }
   }
 };
+

@@ -141,7 +141,7 @@ import {
   SfLink
 } from '@storefront-ui/vue';
 import { ref, computed } from '@vue/composition-api';
-import { useMakeOrder, useCart, useBilling, useShipping, useShippingProvider, cartGetters } from '@vue-storefront/reactioncommerce';
+import { useMakeOrder, useCart, useBilling, useShipping, useShippingProvider, cartGetters } from '@kali604/reactioncommerce';
 import { onSSR } from '@kali604/core';
 import getShippingMethodPrice from '@/helpers/Checkout/getShippingMethodPrice';
 import VsfPaymentProviderMock from '@/components/Checkout/VsfPaymentProviderMock';
